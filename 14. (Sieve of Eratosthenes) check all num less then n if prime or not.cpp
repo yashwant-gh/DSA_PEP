@@ -13,4 +13,8 @@ int main(){
         }
       }
     }
+// print the pairs of prime nums less than n whose difference is 6
+    for(int i=0;i<=n-6;i++){
+        if(arr[i] && arr[i+6]cout<<i<<" ans "<<i+6<<endl;
+    }
 }
