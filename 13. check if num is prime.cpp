@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// Time: O(sqrt(n))
 bool isprime(int x){
     if(x<=1)return false;
     if(x%2==0)return false;
