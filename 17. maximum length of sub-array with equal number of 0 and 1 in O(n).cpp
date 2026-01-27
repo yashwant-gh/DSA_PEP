@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-Time: O(n) Space:O(n)
+//Time: O(n) Space:O(n)
 int main(){
     int n;
     cin>>n;
