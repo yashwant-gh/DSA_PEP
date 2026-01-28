@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+// can also be used to count total occurances in sorted array
 //  function to check for first index
 int bsl(vector<int>arr,int target){  // binary search left
     int l=0;
