@@ -49,3 +49,16 @@ int main(){
     cout<<fin<<" "<<lin<<endl;
     return 0;
 }
+
+
+
+// can also do this:
+
+//O(log n)
+int countFreq(vector<int>& arr, int target) {
+    //it will give fist occurance index
+    auto lower = lower_bound(arr.begin(), arr.end(), target); //uses binary search : log(n)
+    //it will give index just after last occurance
+    auto upper = upper_bound(arr.begin(), arr.end(), target); //uses binary search : log(n)
+    return upper - lower;
+    }
