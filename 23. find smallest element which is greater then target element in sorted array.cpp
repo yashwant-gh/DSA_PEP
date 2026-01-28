@@ -27,3 +27,9 @@ int main(){
     cout<<ans;
     return 0;
 }
+
+
+// can also use this
+// it will give the next index of the element after target element
+auto ans=upper_bound(arr.begin(),arr.end(),target); // uses binary search time: O(log n)
+cout<<arr[ans-arr.begin()];
